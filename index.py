@@ -35,3 +35,6 @@ l='x'
 # boolean
 # true false
 isAlive = True
+print(type(isAlive))
+userInput= input("Enter the value")
+print(type(userInput))
