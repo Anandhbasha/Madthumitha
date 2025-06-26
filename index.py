@@ -16,8 +16,9 @@
 # # = assignent Opeartor
 # # 10,20 are values of a
 
-# # value is not more one is called as premitive
-# # number int
+# # value is not more one is called as premitive(Simple)Data types
+# #  int,float,string,Boolean
+
 # # 
 # a=10
 # # a[0] = 10
@@ -38,18 +39,22 @@
 # print(type(isAlive))
 # userInput= input("Enter the value")
 # print(type(userInput))
-# a= 10.5
+# 
+a= 10.5
+# complex Datatypes
 # list
+# duplicate value
 e=[10,20,50.5,True,10] 
 # e[0]=10
 # e[1] = 20
 print(e)
 print(e[3])
-# duplicate value
+
 # tuple
 d=(20,50,60,20)
 print(d[0])
 f=("xyz","abc")
+
 # dictionary
 person = {"name":"xyz",
           "age":22,
@@ -59,6 +64,6 @@ print(person)
 print(person.keys)
 print(person["name"])
 print(person.get('age'))
-# sets
+# set
 sets = {10,20,30}
 print(sets)
