@@ -34,3 +34,5 @@ State = "UP"
 print(age>18 and location=="india" and State=="TN")
 print(age>18 and location=="india" or State=="TN")
 print(not age>18 )
+# membership operator
+# identity 
