@@ -103,6 +103,10 @@ a,b=b,a
 # b=a
 print(a,b)
 name = "madhumitha"
+i=0
+while i <=len(name):
+    print(name[:i])
+    i+=1
 # m
 # ma
 # mad
@@ -112,3 +116,5 @@ name = "madhumitha"
 # madhumit
 # madhumith
 # madhumitha
+
+
