@@ -55,3 +55,7 @@
 f = open("New.txt",'a')
 f.write("She Cover almost 35% of Python")
 f.close()
+
+arr = [10,20,50,60]
+
+# Numpy
