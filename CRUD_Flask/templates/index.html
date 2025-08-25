@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students List</title>
+</head>
+<body>
+    <h2>Students List</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.course }}</td>
+            <td><a href="{{url_for("dele",stu_id =student.id)}}">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

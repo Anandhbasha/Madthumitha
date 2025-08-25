@@ -263,16 +263,16 @@ import numpy as np
 
 
 
-import numpy as np
+# import numpy as np
 
-arr = np.arange(12)
+# arr = np.arange(12)
 
-# 3x4 matrix shape
-reshaped = arr.reshape(3, 4)
+# # 3x4 matrix shape
+# reshaped = arr.reshape(3, 4)
 
-# Flatten to 1D
-flattened = reshaped.flatten()
+# # Flatten to 1D
+# flattened = reshaped.flatten()
 
-print("Original array:", arr)
-print("Reshaped array (3x4):\n", reshaped)
-print("Flattened array:", flattened)
+# print("Original array:", arr)
+# print("Reshaped array (3x4):\n", reshaped)
+# print("Flattened array:", flattened)
